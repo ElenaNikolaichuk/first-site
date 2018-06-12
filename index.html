@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Я хз шо тут написать</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img id="instagram" src="images/Instagram.png" alt="instagram" width="24" height="28">
+                <h1>LEO IMAGES</h1>
+                <img id="o" src="images/o.png" alt="o" width="8px" height="11px">
+            </div>
+            <div class="menu">
+                <img id="menu" src="images/menu.png" alt="menu" width="37" height="28">
+                <div class="drop-down">
+                    <a href="#!">About us</a>
+                    <a href="#!">About us</a>
+                    <a href="#!">About us</a>
+                </div>
+            </div>
+        </nav>
+        <div class="search">
+            <p>Photos, illustrarions by creatives all over the world</p>
+            <input type="text" placeholder="People walking">
+        </div>
+    </header>
+    <section>
+
+        <div class="register">
+            <p>Create a free account now</p>
+            <button type="button" data-toggle="modal" data-target="#formModal" id="register">Register now</button>
+
+
+            <div class="modal fade" id="formModal" tabindex="1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-sm" role="dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="ModalTitle">Register now</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                                 <!-- <form action="" id="form"> -->
+                                        <label for="e-mail">Enter your e-mail
+                                            <input id="e-mail" type="text" name="e-mail">
+                                        </label>
+                                        <label for="password">Enter your password
+                                            <input id="password" type="password" name="password">
+                                        </label>
+                                    <!-- </form>   -->
+                        </div>
+                        <div class="modal-footer" id="buttons">
+                          <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-info btn-sm">Send</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+
+        </div>
+              
+      
+
+        <div class="browse">
+            <div>
+                <h2>BROWSE BY CATEGORY</h2>
+            </div>
+            <div class="categories">
+                <div>
+                    <a href="#!">Abstract</a>
+                    <a href="#!">Animals/Wildlife</a>
+                    <a href="#!">The Arts</a>
+                    <a href="#!">Backgrounds/Textures</a>
+                    <a href="#!">Beauty/Fashion</a>
+                    <a href="#!">Buildings/Landmarks</a>
+                </div>
+                <div>
+                    <a href="#!">Business/Finance</a>
+                    <a href="#!">Celebrities</a>
+                    <a href="#!">Editorial</a>
+                    <a href="#!">Education</a>
+                    <a href="#!">Food and Drink</a>
+                    <a href="#!">Healthcare/Medical</a>
+                </div>
+                <div>
+                    <a href="#!">Holidays</a>
+                    <a href="#!">Illustrations/Clip-Art</a>
+                    <a href="#!">Industrial</a>
+                    <a href="#!">Interiors</a>
+                    <a href="#!">Miscellaneous</a>
+                    <a href="#!">Model Released Only</a>
+                </div>
+                <div>
+                    <a href="#!">Nature</a>
+                    <a href="#!">Objects</a>
+                    <a href="#!">Parks/Outdoor</a>
+                    <a href="#!">People</a>
+                    <a href="#!">Religion</a>
+                    <a href="#!">Science</a>
+                </div>
+                <div>
+                    <a href="#!">Signs/Symbols</a>
+                    <a href="#!">Sports/Recreation</a>
+                    <a href="#!">Technology</a>
+                    <a href="#!">Transportation</a>
+                    <a href="#!">Vectors</a>
+                    <a href="#!">Vintage</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &#169 2018 alena_n</p>
+    </footer>
+</body>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+<script>
+    
+    $('.menu').mouseover(function () {
+        $('.drop-down').css('display', 'block');
+        $('.menu').css('width', '100px');
+        $('.logo').css('margin-right', '509px');
+    });
+    $('.menu').mouseout(function () {
+        $('.drop-down').css('display', 'none');
+        $('.menu').css('width', '59px');
+        $('.logo').css('margin-right', '550px');
+    })
+
+  </script>
+
+</html>
