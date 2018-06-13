@@ -12,7 +12,7 @@
 header{
     height: 659px;
     background-image: url("images/header.png");
-    background-repeat: round;
+    background-repeat: round ;
     z-index: 1;
 }
 
@@ -36,6 +36,7 @@ nav{
 }
 #instagram{
     margin-right: 5px;
+    margin-bottom: 8px;
 }
 
 #o{
